@@ -1,0 +1,5 @@
+feature-driven development
+the start point
+human error
+runtime error
+analysis, design, coding testing, maintenance and deployment

@@ -1,0 +1,29 @@
+Which model has the strict sequence of development?
+Options:
+a. Waterfall
+b. RAD
+c. Iterative
+
+Which model is used for fast development of the project?
+Options:
+a. Waterfall
+b. RAD
+c. Iterative
+
+What’s the name of the type of test data that has next explanation : typical data values that are valid?
+Options:
+a. Normal
+b. Abnormal
+c. Boundary
+
+What’s the name of the type of test data that has next explanation : data that the system should not accept?
+Options:
+a. Normal
+b. Abnormal
+c. Boundary
+
+What’s the name of the type of test data that has next explanation : data values that are on the boundaries of the range of normal data?
+Options:
+a. Normal
+b. Abnormal
+c. Boundary

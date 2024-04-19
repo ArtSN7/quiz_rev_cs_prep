@@ -1,0 +1,5 @@
+Which software development model involves building a piece of software one feature at a time?
+In a state-transition diagram, what does an arrow with a black circle at the end indicate?
+What’s the name of the error which was made by individuals during data entry, analysis, or interpretation?
+What error appears than the division by zero happens?
+List the 5 stages of the software development lifecycle ( from the first to the last separating them by commas )
