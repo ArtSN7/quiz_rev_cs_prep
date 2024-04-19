@@ -121,10 +121,53 @@ public class main{
 
           // finishin test
 
-
+          System.out.println("Your score is:\n");
           System.out.println(count);
-          System.out.println(Array_Of_Wrong_Question);
-          System.out.println(Array_Of_Wrong_Answers);
+
+          System.out.println("\n\nNow let's go through ur mistakes\n\n");
+          
+          Integer length = Array_Of_Wrong_Question.size();
+
+          for (int i = 0; i < length; i++){
+
+            question = Array_Of_Wrong_Question.get(i);
+            
+            answer = Array_Of_Wrong_Answers.get(i);
+
+            String[] stuff = question.split("=");
+
+            
+
+            if (stuff.length == 1){
+
+                System.out.println(stuff[0]);
+                System.out.println("\nAnswer:\n");
+                System.out.println(answer);
+                System.out.println("\n\n");
+
+
+            }else{
+
+                System.out.println(stuff[0]);
+
+                System.out.println("\n");
+    
+                System.out.println(stuff[1]);
+                System.out.println(stuff[2]);
+                System.out.println(stuff[3]);
+                System.out.println(stuff[4]);
+    
+                System.out.println("\nAnswer:\n");
+                System.out.println(answer);
+                System.out.println("\n\n");
+
+            }
+
+
+
+
+
+          }
 
 
     }
