@@ -3,7 +3,10 @@ import java.util.ArrayList;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Collections;
-
+import java.io.FileWriter;
+import java.io.IOException;
+import java.time.format.DateTimeFormatter;  
+import java.time.LocalDateTime; 
 
 
 
@@ -164,10 +167,29 @@ public class main{
             }
 
 
-
-
-
           }
+
+          // writing results
+
+          try {
+            FileWriter myWriter = new FileWriter("results.txt", true);  
+            
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+            LocalDateTime now = LocalDateTime.now();  
+            
+            response = "Score: " + count + " | Date: " + dtf.format(now);
+    
+            myWriter.write(response);
+            myWriter.write("\n");
+            myWriter.close();
+      
+          } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+      
+          }
+
+
 
 
     }
