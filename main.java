@@ -78,7 +78,8 @@ public class main{
 
           }
 
-          System.out.println(Array_Choice_Questions);
+
+
 
 
           for (int i = 0; i <= 4; i++) { // iteration for choice questions
@@ -86,7 +87,16 @@ public class main{
             question = Array_Choice_Questions.get(Array_Of_Indx.get(i));
             answer = Array_Choice_Answers.get(Array_Of_Indx.get(i));
 
-            System.out.println(question);
+            String[] parts = question.split("=");
+            System.out.println(parts[0]);
+
+            System.out.println("\n");
+
+            System.out.println(parts[1]);
+            System.out.println(parts[2]);
+            System.out.println(parts[3]);
+            System.out.println(parts[4]);
+
             System.out.println("\n\n");
 
             response = input.nextLine();
@@ -108,6 +118,8 @@ public class main{
             }
 
           }
+
+          // finishin test
 
 
           System.out.println(count);
@@ -141,7 +153,7 @@ public class main{
               }else{
 
                 question += data;
-                question += "|"; // adding a mark to then be able to split
+                question += "="; // adding a mark to then be able to split
 
               }
 
