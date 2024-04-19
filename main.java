@@ -50,7 +50,7 @@ public class main{
         ArrayList<String> Array_Of_Wrong_Question = new ArrayList<>();
         ArrayList<String> Array_Of_Wrong_Answers = new ArrayList<>();
 
-        for (int i = 0; i <= 0; i++) { // iteration for plain questions
+        for (int i = 0; i <= 4; i++) { // iteration for plain questions
 
             question = Array_Plain_Questions.get(Array_Of_Indx.get(i));
             answer = Array_Plain_Answers.get(Array_Of_Indx.get(i));
