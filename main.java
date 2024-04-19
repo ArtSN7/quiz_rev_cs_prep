@@ -50,7 +50,7 @@ public class main{
         ArrayList<String> Array_Of_Wrong_Question = new ArrayList<>();
         ArrayList<String> Array_Of_Wrong_Answers = new ArrayList<>();
 
-        for (int i = 0; i <= 4; i++) { // iteration for plain questions
+        for (int i = 0; i <= 0; i++) { // iteration for plain questions
 
             question = Array_Plain_Questions.get(Array_Of_Indx.get(i));
             answer = Array_Plain_Answers.get(Array_Of_Indx.get(i));
@@ -78,7 +78,7 @@ public class main{
 
           }
 
-          System.out.println(Array_Choice_Answers);
+          System.out.println(Array_Choice_Questions);
 
 
           for (int i = 0; i <= 4; i++) { // iteration for choice questions
@@ -155,6 +155,8 @@ public class main{
             e.printStackTrace();
 
           } // finish working with the file
+
+        response.add(question);
 
         return response; // returning array list
 
@@ -245,6 +247,7 @@ public class main{
             e.printStackTrace();
 
           } // finish working with the file
+          
 
         return response; // returning array list
 
